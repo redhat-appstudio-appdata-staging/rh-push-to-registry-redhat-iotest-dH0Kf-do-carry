@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rh-push-to-registry-redhat-iotest-component
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads-stage/dev-release-team-tenant/rh-push-to-registry-redhat-iotest/rh-push-to-registry-redhat-iotest-component@sha256:1b6cd20aa4172a669410f7d611c95de2893acb1baa0d94f7beb04cb2fb2ff471
         name: my-python
         ports:
         - containerPort: 8081
